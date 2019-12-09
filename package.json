@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "dot-matrix-lcd",
+  "version": "1.0.0",
+  "description": "A simple Dot Matrix LCD emulator for JavaScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatisuday/dot-matrix-lcd.git"
+  },
+  "keywords": [],
+  "author": "Uday Hiwarale <thatisuday@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatisuday/dot-matrix-lcd/issues"
+  },
+  "homepage": "https://github.com/thatisuday/dot-matrix-lcd#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-proposal-export-default-from": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4",
+    "@babel/plugin-transform-async-to-generator": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "config": "^3.2.4",
+    "css-loader": "^3.3.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
