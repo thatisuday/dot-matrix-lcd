@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "dot-matrix-lcd",
   "version": "1.0.0",
   "description": "A simple Dot Matrix LCD emulator for JavaScript.",
